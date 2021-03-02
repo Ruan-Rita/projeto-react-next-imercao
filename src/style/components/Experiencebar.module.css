@@ -1,0 +1,32 @@
+@import url('../global.css') print;
+.experiencebarContainer{
+    display: flex;
+    align-items:center;
+}
+
+.experiencebarContainer span{
+    font-size: 1rem;
+}
+
+.experiencebarContainer > div{
+    flex: 1;
+    height: 4px;
+    border-radius: 4px;
+    background-color: gray;
+    margin: 0 1.5rem;
+    position: relative;
+}
+
+.experiencebarContainer > div > div{
+    height: 4px;
+    border-radius: 4px;
+    background: green ;
+}
+
+
+
+.experiencebarContainer > div > span.currentExperience{
+    position: absolute;
+    top: 12px;
+    transform: translateX(-50%);
+}
